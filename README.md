@@ -3,7 +3,9 @@ PingdomResponder
 
 A light weight Python daemon that responds to Pingdom Probe server requests.  
 Why put a whole install of Apache/Nginx on your server to consume loads of resources and just sit there!  
-On start we grab an up-to-date list of all the Probe servers Pingdom via their RSS feed so we only respond to their responses.
+On start we grab an up-to-date list of all the Probe servers Pingdom via their RSS feed so we only respond to their responses.  
+
+** We are not affiliated with Pingdom - we just like their service!
 
 # Running PingdomResponder
 There are 3 parameters start | restart | stop
@@ -25,7 +27,7 @@ sudo sh setuptools-0.6c11-py2.7.egg
 ```
 
 ## Install FeedParser
-Go to http://pypi.python.org/pypi/feedparser/#downloads and select the latest version (At this time 5.1.3
+Go to http://pypi.python.org/pypi/feedparser/#downloads and select the latest version (At this time 5.1.3)
 ```
 wget -O feedparser-5.1.3.tar.gz "http://pypi.python.org/packages/source/f/feedparser/feedparser-5.1.3.tar.gz"
 tar xvf feedparser-5.1.3.tar.gz
