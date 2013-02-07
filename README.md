@@ -4,6 +4,13 @@ PingdomResponder
 A light weight responder to Pingdom Probe server requests  
 Runs as a daemon taking up very little resources and will only respond to valid Pingdom Probe server IP addresses or custom ones you have added.
 
+# Running PingdomResponder
+There are 3 parameters start | restart | stop
+```
+python PingdomResponder/server.py PARAM
+python PingdomResponder/server.py start
+```
+
 #Installation
 Only 1 external Python module is required: FeedParser (http://pypi.python.org/pypi/feedparser/)  
 
